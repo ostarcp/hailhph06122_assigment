@@ -1,0 +1,167 @@
+{
+  "category": [
+    {
+      "name": "Main course",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2F0376e48e085be165ced5b0972fc7efd5.jpg?alt=media&token=6ca66947-798e-4901-b540-ead1e7cd0ec3",
+      "id": 1,
+      "updated_at": "2020-08-12T17:42:31.720Z"
+    },
+    {
+      "name": "Dessert",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Funnamed.png?alt=media&token=992d05fb-345b-4ee6-91b5-bc7529d07d99",
+      "id": 2,
+      "updated_at": "2020-08-10T02:32:44.892Z"
+    },
+    {
+      "name": "Appetizer ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Ffood-drink-34-512.png?alt=media&token=2b6217cc-5590-4bae-b694-46f06bdc01da",
+      "id": 3,
+      "updated_at": "2020-08-10T02:32:32.940Z"
+    },
+    {
+      "name": "Uncategorized",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2FIcon_CFD_Support__Application_Development-300x300.png?alt=media&token=94aecdc0-c25e-4c3d-ba5e-fca628d8d087",
+      "id": 4
+    }
+  ],
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Cơm gà sốt cay",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Fhttp___cdn.cnn.com_cnnnext_dam_assets_170302150650-chicken-rice-singapore.jpg?alt=media&token=c676f8a4-2400-4b84-954c-3b0838585251",
+      "cateId": 3,
+      "contents": "<p>Bất kì tín đồ hải sản nào trên chuyến hành hương về thánh địa đồ ăn ở Hong Kong đều đã từng nghe về món Cua Cay Under Bridge. Địa điểm ở Hong Kong này nổi tiếng đối với người dân địa phương cũng như dân du lịch, bị hấp dẫn bởi món cua đẳng cấp thế giới, tôm, sò huyết, trai và rất nhiều món hải sản khác. Đừng nghĩ đây chỉ là lời nói suông, nhà hàng đã từng tiếp đón rất nhiều ngôi sao như Anthony Bourdain, Ray Lui, Rosamund Kwan và Rainie Yeung. Mỗi buổi sáng, bếp trưởng sẽ tự đây đi</p>",
+      "price": "10000",
+      "salePrice": "60000",
+      "shortDes": "sản phẩm này thuộc quyền sờ hữu của tôi ",
+      "status": "thật ko thể tin đcs2",
+      "updated_at": "2020-08-12T17:52:50.267Z"
+    },
+    {
+      "id": 2,
+      "name": "Tằm sum thái lan",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Fhttp___cdn.cnn.com_cnnnext_dam_assets_170302150230-som-tam.jpg?alt=media&token=2068234e-ba19-402b-9cc4-1c3e813f3c4b",
+      "cateId": 3,
+      "contents": "<p class=\"ql-align-justify\">Bước 2: Thịt gà cho vào một chiếc nồi lớn đủ để chế nước phủ ngập gà. Thêm vào nồi 1 củ hành tây, 20gr hành tím, 20gr gừng, 1 muỗng cà phê muối và 1 muỗng canh bột nghệ. Đun trên lửa vừa đến khi nước sôi hạ lửa xuống mức nhỏ nhất, đậy kín nắp luộc thêm 20 phút nữa cho gà chín hẳn.</p><p class=\"ql-align-center\"><img src=\"https://cdn.eva.vn/upload/2-2019/images/2019-05-03/3-cach-lam-com-ga-thom-ngon-cach-nau-com-ga-1-1556867131-994-width546height551.jpg\" alt=\"3 cach lam com ga thom ngon dai ca nha - 1\" height=\"505\" width=\"500\"></p><p class=\"ql-align-justify\">Bước 3: Xé gà vừa ăn. Ướp gà với 1/2 muỗng cà phê muối, 1/2 muỗng cà phê bột ngọt, 1/2 muỗng cà phê tiêu, 1 muỗng cà phê đường, nước cốt 3 trái tắc rồi trộn đều. Bọc lại để đến khi dùng.</p>",
+      "price": "100000",
+      "salePrice": "",
+      "shortDes": "Yummy",
+      "status": "online",
+      "updated_at": "2020-08-12T16:26:42.623Z"
+    },
+    {
+      "id": 3,
+      "name": "Hai nam chicken rice",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Fhttp___cdn.cnn.com_cnnnext_dam_assets_170302150650-chicken-rice-singapore.jpg?alt=media&token=d37508d7-7402-426d-b84d-73fe72f13497",
+      "cateId": 1,
+      "contents": "<p>123456</p>",
+      "price": "79000",
+      "salePrice": "",
+      "shortDes": "Yummy",
+      "status": "còn nhập",
+      "updated_at": "2020-08-11T06:52:16.305Z"
+    },
+    {
+      "id": 4,
+      "name": "Stink Tofu",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Fhttp___cdn.cnn.com_cnnnext_dam_assets_170302143134-tofu.jpg?alt=media&token=d0441876-5a64-449b-b24e-c8b37e1e3822",
+      "cateId": 3,
+      "contents": "<p>123123</p>",
+      "price": "10000",
+      "salePrice": "",
+      "shortDes": "Yummy",
+      "status": "online",
+      "updated_at": "2020-08-10T04:00:33.122Z"
+    },
+    {
+      "id": 5,
+      "name": "Riroto tôm cay hầm sò",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Fhttp___cdn.cnn.com_cnnnext_dam_assets_170206165040-dubai-michelin-dining-boca.jpg?alt=media&token=b99de721-dc18-495d-945c-b29de6111c3f",
+      "cateId": 2,
+      "contents": "<p><span style=\"color: rgb(0, 0, 0);\">Chế biến món Canh bí xanh hầm tôm, sò điệp</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\"><img src=\"http://www.bepnhata.com/img/b5d9679f5deac444a40baf2fc7a90aa56d50ce3328f6cb4e1655e2b01e19c5ec36350d6dbfef2eea63fe.jpg\"></span></p><p><strong style=\"color: rgb(0, 0, 0);\">Vừa mát dịu, vừa thơm ngọt nồng nàn là hương vị còn đọng lại của món canh bí xanh hầm tôm, sò điệp</strong></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">Nguyên liệu:</strong></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Sò điệp khô: 50g</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Tôm: 300g</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Thịt xay: 50g</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Bí xanh non: 1 quả</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Nấm, mộc nhĩ: 8 tai</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">-Hành lá, rau mùi (ngò), hành tím</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Gia vị: muối, hạt tiêu, bột ngọt, nước mắm ngon.</span></p>",
+      "price": "50000",
+      "salePrice": "",
+      "shortDes": "Ngon như crush",
+      "status": "hot",
+      "updated_at": "2020-08-11T15:04:00.205Z"
+    },
+    {
+      "id": 6,
+      "name": "Cua rang me",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Fhttp___cdn.cnn.com_cnnnext_dam_assets_170306145913-singapore-chili-crab.jpg?alt=media&token=7422ac93-71e0-42d2-b961-aeee1fa7608b",
+      "cateId": 1,
+      "contents": "<p><span style=\"color: rgb(0, 0, 0);\">Chế biến món Canh bí xanh hầm tôm, sò điệp</span></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">Vừa mát dịu, vừa thơm ngọt nồng nàn là hương vị còn đọng lại của món canh bí xanh hầm tôm, sò điệp</strong></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0);\">Nguyên liệu:</strong></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Sò điệp khô: 50g</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Tôm: 300g</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Thịt xay: 50g</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Bí xanh non: 1 quả</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Nấm, mộc nhĩ: 8 tai</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">-Hành lá, rau mùi (ngò), hành tím</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">- Gia vị: muối, hạt tiêu, bột ngọt, nước mắm ngon.</span></p>",
+      "price": "36000",
+      "salePrice": "",
+      "shortDes": "sản phẩm này thuộc quyền sờ hữu của Yummy",
+      "status": "online",
+      "updated_at": "2020-08-12T17:53:23.140Z"
+    },
+    {
+      "id": 7,
+      "name": "Beef wellington",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Fmc-beef-wellington-articleLarge.jpg?alt=media&token=02142cf2-d3f3-4a78-ad46-190a4a6a2cde",
+      "cateId": 2,
+      "contents": "<h3><a href=\"https://cooking.nytimes.com/ourcooks/melissa-clark/my-recipes\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 0, 0);\">MELISSA CLARK</a></h3><ul><li><strong style=\"color: rgb(0, 0, 0);\">YIELD</strong></li><li>8 to 10 servings</li><li><strong style=\"color: rgb(0, 0, 0);\">TIME</strong></li><li>1 1/2 hours, plus chilling</li></ul><p><br></p><p>Save to Recipe Box</p><p><br></p><p><a href=\"mailto:?subject=NYT%20Cooking:%20Beef%20Wellington&amp;body=NYT%20Cooking:%20Beef%20Wellington%0A%0Ahttps://cooking.nytimes.com/recipes/1020640-beef-wellington%3Futm_source%3Dsharetools%26utm_medium%3Demail%26utm_campaign%3Dwebsite\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(125, 19, 27);\">Email</a>\t<a href=\"http://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fcooking.nytimes.com%2Frecipes%2F1020640-beef-wellington%3Fsmid=pin-share&amp;description=NYT%20Cooking:%20In%20this%20British%20classic,%20tender%20beef%20fillet%20is%20blanketed%20with%20browned%20mushrooms%20and%20shallots,%20then%20wrapped%20in%20layers%20of%20prosciutto%20and%20buttery%20puff%20pastry%20before%20being%20baked%20until%20golden%20and%20flaky%20on%20the%20outside,%20juicy%20and%20rare%20within.%20Worthy%20of%20the%20most%20elegant,%20blow-out%20meal,%20save%20this%20one%20for%20Christmas,%20New%20Year%E2%80%99s%20Eve%20or%20your%20next%20big%20birthday.%20One%20thing%20to%20note:%20You%20really%20do%20need%20a%20full%20po...&amp;media=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2019%2F12%2F13%2Fdining%2Fmc-beef-wellington%2Fmc-beef-wellington-verticalTwoByThree735.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(125, 19, 27);\">Share on Pinterest</a>\t<a href=\"http://www.facebook.com/sharer/sharer.php?u=https://cooking.nytimes.com/recipes/1020640-beef-wellington%3Fsmid=fb-share\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(125, 19, 27);\">Share on Facebook</a>\t<a href=\"http://twitter.com/intent/tweet?text=Beef%20Wellington&amp;url=https://cooking.nytimes.com/recipes/1020640-beef-wellington%3Fsmid=tw-share&amp;hashtags=NYTCooking\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(125, 19, 27);\">Share on Twitter</a></p><p><br></p><p class=\"ql-align-right\"><img src=\"https://static01.nyt.com/images/2019/12/13/dining/mc-beef-wellington/mc-beef-wellington-articleLarge.jpg\" alt=\"Beef Wellington\">Ryan Liebe for The New York Times. Food Stylist: Simon Andrews.</p><p>In this British classic, tender beef fillet is blanketed with browned mushrooms and shallots, then wrapped in layers of prosciutto and buttery puff pastry before being baked until golden and flaky on the outside, juicy and rare within. Worthy of the most elegant, blow-out meal, save this one for Christmas, New Year’s Eve or your next big birthday. One thing to note: You really do need a full pound of puff pastry here to cover all the meat, so if your package weighs less (some brands weigh 12 ounces), you’ll need to supplement with another package.</p>",
+      "price": "90000",
+      "salePrice": "",
+      "shortDes": "Gordon Ramsay signature dish",
+      "status": "hot",
+      "updated_at": "2020-08-11T15:10:30.236Z"
+    },
+    {
+      "name": "Trường Sinh2",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Funnamed.png?alt=media&token=b34b6db2-e9fa-4328-9453-ec79b42c447e",
+      "cateId": 4,
+      "contents": "<p>aqsdasd</p>",
+      "price": "79000",
+      "salePrice": "60000",
+      "shortDes": "sản phẩm này thuộc quyền sờ hữu của tôi ",
+      "status": "còn nhập",
+      "created_at": "2020-08-11T16:25:37.252Z",
+      "id": 8,
+      "updated_at": "2020-08-12T17:54:08.518Z"
+    },
+    {
+      "name": "san pham test",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Fhttp___cdn.cnn.com_cnnnext_dam_assets_170302143134-tofu.jpg?alt=media&token=dd2b232a-ae89-4fcc-a0e6-0f64007a25d6",
+      "cateId": 4,
+      "contents": "<ol><li>Heat 1 tbsp olive oil in a large&nbsp;<a href=\"https://www.bbcgoodfood.com/content/top-five-non-stick-frying-pans\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(68, 125, 117);\">frying pan</a>&nbsp;with a lid and brown 2 chopped chicken breasts for 5-8 mins until golden.</li><li>Remove and set aside. Tip in the 1 diced onion and cook for 3-4 mins until soft.</li><li>Add 1 thinly sliced red pepper, 2 crushed&nbsp;<a href=\"https://www.bbcgoodfood.com/content/top-five-garlic-gadgets\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(68, 125, 117);\">garlic</a>&nbsp;cloves, 75g sliced chorizo and 1 tbsp Cajun seasoning, and cook for 5 mins more.</li><li>Stir the chicken back in with 250g long grain rice, add the 400g can of tomatoes and 350ml chicken stock. Cover and simmer for 20-25 mins until the rice is tender.</li></ol>",
+      "price": "790000",
+      "salePrice": "",
+      "shortDes": "Yummy",
+      "status": "còn nhập",
+      "created_at": "2020-08-12T03:05:11.191Z",
+      "id": 9,
+      "updated_at": "2020-08-12T16:32:21.225Z"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Post about the new Reactjs patchs",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Funnamed.png?alt=media&token=8312b561-4ba2-4eb8-a9f1-fa83bb237b7a",
+      "contents": "<p>abcasdasd</p>",
+      "created_at": "2020-08-12T02:55:44.046Z",
+      "id": 1,
+      "updated_at": "2020-08-12T17:51:14.848Z"
+    },
+    {
+      "title": "How to be bét daxua",
+      "image": "https://firebasestorage.googleapis.com/v0/b/tasty-760b1.appspot.com/o/images%2Fhttp___cdn.cnn.com_cnnnext_dam_assets_170302150230-som-tam.jpg?alt=media&token=bcea197f-9872-4ecb-9f2d-e69cc0056c0a",
+      "contents": "<ol><li>Heat 1 tbsp olive oil in a large&nbsp;<a href=\"https://www.bbcgoodfood.com/content/top-five-non-stick-frying-pans\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(68, 125, 117);\">frying pan</a>&nbsp;with a lid and brown 2 chopped chicken breasts for 5-8 mins until golden.</li><li>Remove and set aside. Tip in the 1 diced onion and cook for 3-4 mins until soft.</li><li>Add 1 thinly sliced red pepper, 2 crushed&nbsp;<a href=\"https://www.bbcgoodfood.com/content/top-five-garlic-gadgets\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(68, 125, 117);\">garlic</a>&nbsp;cloves, 75g sliced chorizo and 1 tbsp Cajun seasoning, and cook for 5 mins more.</li><li>Stir the chicken back in with 250g long grain rice, add the 400g can of tomatoes and 350ml chicken stock. Cover and simmer for 20-25 mins until the rice is tender.</li></ol><p><br></p>",
+      "created_at": "2020-08-12T02:58:06.474Z",
+      "id": 2
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "productId": 2,
+      "quanity": 5,
+      "totalPrice": 500000,
+      "address": "Nam Tu Liem - My Dinh - Ha Noi",
+      "phone": "0399924717",
+      "fullName": "Le Hoang Hai"
+    }
+  ]
+}

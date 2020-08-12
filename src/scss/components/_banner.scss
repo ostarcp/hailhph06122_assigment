@@ -1,0 +1,149 @@
+.banner {
+  margin-top: 50px;
+  .first-banner {
+    animation: loadInLeft 1s;
+    transition: opacity 0.5s;
+
+    .banner-left {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      h1 {
+        font-weight: bold;
+      }
+
+      p {
+        padding: 25px 0px;
+        font-weight: 500;
+        width: 84%;
+        font-size: 14px;
+      }
+
+      .meal-h1 {
+        color: white;
+
+        padding-left: 20px;
+        position: relative;
+        z-index: 1;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 110%;
+          height: 100%;
+          z-index: -1;
+          transform: rotate(0deg) scale(1) skew(-20deg) translate(-1%);
+          background-color: #6415ff;
+        }
+      }
+
+      .chef-btn {
+        padding: 13px 35px;
+        color: gray;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      button {
+        background: #6415ff;
+        border: none;
+        outline: none;
+        padding: 13px 35px;
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+  .right-banner {
+    padding: 10px;
+
+    img {
+      border-radius: 35px;
+    }
+  }
+
+  .second-banner {
+    animation: loadInRight 1s;
+    transition: opacity 0.5s;
+
+    .left-banner {
+      padding: 10px;
+      img {
+        border-radius: 35px;
+      }
+    }
+
+    .banner-right {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      padding: 0px 50px;
+
+      h1 {
+        font-weight: bold;
+      }
+
+      p {
+        padding: 25px 0px;
+        font-weight: 500;
+        width: 100%;
+        font-size: 14px;
+      }
+
+      .meal-h1 {
+        color: white;
+
+        padding-left: 20px;
+        position: relative;
+        z-index: 1;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 110%;
+          height: 100%;
+          z-index: -1;
+          transform: rotate(0deg) scale(1) skew(-20deg) translate(-1%);
+          background-color: #6415ff;
+        }
+      }
+      button {
+        background: #6415ff;
+        border: none;
+        outline: none;
+        padding: 13px 35px;
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@keyframes loadInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes loadInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

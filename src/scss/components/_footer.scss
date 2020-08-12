@@ -1,0 +1,84 @@
+.footer-main {
+  margin-top: 15vh;
+  padding: 5px;
+
+  .firstfooterrow {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .subscribe-box {
+    //border: 1px solid;
+    padding-left: 15px;
+    h5 {
+      //border: 1px solid;
+      padding-left: 0;
+    }
+
+    p {
+      //border: 1px solid black;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: left;
+      font-size: 14px;
+      font-weight: 500;
+      color: #4a5568;
+    }
+
+    .subcribe-form {
+      //border: 1px solid #6415ff;
+
+      input {
+        border: none;
+        outline: none;
+        padding: 9px;
+        border: 1px solid #6415ff;
+      }
+
+      button {
+        background: #6415ff;
+        outline: none;
+        border: none;
+        color: white;
+      }
+    }
+  }
+
+  h5 {
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #474e5a;
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+
+    li {
+      padding: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #4a5568;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #474e5a;
+        height: 2px;
+        transform: scale(0.1);
+        transform-origin: right;
+        transition: transform 300ms ease-in;
+      }
+
+      &:hover::after {
+        transform-origin: left;
+        transform: scale(1);
+      }
+    }
+  }
+}

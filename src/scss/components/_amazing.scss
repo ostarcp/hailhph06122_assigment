@@ -1,0 +1,35 @@
+.amazing-master{
+  //border: 1px solid;
+  margin-top: 15vh;
+
+  h1{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 4em;
+  }
+
+  .card-amazing{
+    //border: 1px solid;
+    text-align: center;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+      background-color: #F7FAFC;
+      width: 100px;
+      border-radius: 75%;
+      margin: 10px 0;
+    }
+
+    a{
+        color: blueviolet;
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 700;
+    }
+ 
+  }
+}

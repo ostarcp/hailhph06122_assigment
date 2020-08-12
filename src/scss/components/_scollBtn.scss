@@ -1,0 +1,30 @@
+.scrollTop {
+  position: fixed;
+  width: 60px;
+  color: white;
+  background-color: $mainColor;
+  bottom: 20px;
+  right: 10vw;
+  align-items: center;
+  height: 60px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 1;
+  border-radius: 75px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
