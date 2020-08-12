@@ -1,1 +1,1 @@
-Run json-server db.json in cd: react-pt14311-web\src
+Run json-server db.json in root: \src
