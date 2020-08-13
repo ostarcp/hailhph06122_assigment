@@ -15,7 +15,7 @@ const Banner = props => {
         </Col>
 
         <Col xs="12" md="6" className="right-banner">
-          <img className="w-100" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80" alt="opps" />
+          <img  className="w-100" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80" alt="opps" />
         </Col>
       </Row>
 

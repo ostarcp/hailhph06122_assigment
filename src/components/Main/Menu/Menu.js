@@ -51,7 +51,7 @@ const Menu = props => {
       <Col xs="12" md="4" key={pd.id}>
         <div className="menu-items">
           <Link to={`/chi-tiet-san-pham/${pd.id}`}>
-            <img src={pd.image} alt="cc" />
+            <img loading="lazy" src={pd.image} alt="cc" />
             <div className="menu-price">
               {renderName(pd.cateId)}
               <p className="items-recipe">{pd.name}</p>

@@ -20,7 +20,7 @@ const Shop = props => {
 
   const [currentPage, setcurrentPage] = useState(1);
   const [itemsPerPage] = useState(6);
-  //const [filterSelect, setfilterSelect] = useState("");
+
   const paginate = (pageNumber) => setcurrentPage(pageNumber);
 
   function currencyFormat(num) {
@@ -103,7 +103,8 @@ const Shop = props => {
         </div>
         <div className="d-flex justify-content-center">
           <Paginate
-            itemsPerPage={itemsPerPage}
+            currentPage={currentPage}
+            itemsPerPage={itemsPerPage} 
             totalItem={productsList.length}
             paginate={paginate}
           />

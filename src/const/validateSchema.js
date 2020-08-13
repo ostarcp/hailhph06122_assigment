@@ -15,6 +15,10 @@ const validationProduct = Yup.object().shape({
   name: Yup.string()
     .required('You need to fill in product name')
     .trim(),
+  quanity: Yup.number()
+    .required('You need to fill in product quanity')
+    .positive('Quanity must be positive')
+    .integer('Ingter required'),
   image: Yup.string()
     .required('fill in image')
     .trim(),

@@ -29,9 +29,9 @@ const Products = (props) => {
   const [query, setquery] = useState('');
   const [singleFood, setsingleFood] = useState({});
 
+  // Paginate state
   const [currentPage, setcurrentPage] = useState(1);
-  const [itemsPerPage] = useState(6);
-
+  const [itemsPerPage] = useState(10);
   const paginate = (pageNumber) => setcurrentPage(pageNumber);
 
 
@@ -41,6 +41,7 @@ const Products = (props) => {
   }, [])
 
 
+   // Crud Actions
   const toggleEditModal = (food) => {
     setsingleFood({ ...food });
     setopenEditModal(!editModal);
@@ -84,10 +85,10 @@ const Products = (props) => {
     })
   }
 
+  // Search Actions
   const resetSearch = () => {
     dispatch(getAllProduct());
   }
-
   const handleInput = (e) => {
     const { value } = e.target;
     setquery(value);
@@ -98,14 +99,14 @@ const Products = (props) => {
   }
 
 
+  // Content Actions 
   const getName = (food) => {
-    const cateName = cateList.find(x => x.id === food.cateId);
-    if (cateName.id === 4) {
+    const cateName = cateList && cateList.find(x => x.id === food.cateId);
+    if (cateName && cateName.id === 4) {
       return <td><Badge color="primary">uncategorized</Badge></td>
     }
     return cateName && <td>{cateName.name}</td>
   }
-
 
   const renderPD = () => {
     const indexOfLastPD = currentPage * itemsPerPage;
@@ -146,6 +147,7 @@ const Products = (props) => {
     ))
   }
 
+  
 
   return (
     <React.Fragment>
@@ -153,12 +155,9 @@ const Products = (props) => {
       <ProductModal
         isAdd={addModal}
         isEdit={editModal}
-
         onAdd={onAddProduct}
         onEdit={onEditProduct}
-
         food={singleFood}
-
         toggleEdit={toggleEditModal}
         toggleAdd={toggleAddModal} />
 
@@ -179,6 +178,7 @@ const Products = (props) => {
             <th>Danh mục</th>
             <th>Ảnh món ăn</th>
             <th>Giá</th>
+            <th>Số Lượng</th>
             <th>Tình trạng</th>
             <th><Button color="primary" onClick={toggleAddModal}><BsDownload /></Button></th>
           </tr>
@@ -189,6 +189,7 @@ const Products = (props) => {
       </Table>
 
       <Paginate
+        currentPage={currentPage}
         itemsPerPage={itemsPerPage}
         totalItem={productsList.length}
         paginate={paginate}

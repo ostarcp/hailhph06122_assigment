@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 
-const Paginate = ({ itemsPerPage, totalItem, paginate }) => {
+const Paginate = ({ itemsPerPage, totalItem, paginate, currentPage }) => {
 
   const pageNumbs = [];
 
@@ -12,21 +12,21 @@ const Paginate = ({ itemsPerPage, totalItem, paginate }) => {
   return (
     <Pagination aria-label="Page navigation example">
       {pageNumbs.map(number => (
-        <PaginationItem key={number}>
-          <PaginationLink onClick={()=> paginate(number)} >
+        <PaginationItem key={number} active={currentPage === number ? true : false}>
+          <PaginationLink onClick={() => paginate(number)} >
             {number}
           </PaginationLink>
         </PaginationItem>
       ))}
-
     </Pagination>
   )
 }
 
 Paginate.defaultProps = {
+  currentPage: 1,
   itemsPerPage: 4,
   totalItem: 10,
-  paginate: () => {}
+  paginate: () => { }
 }
 
 export default Paginate

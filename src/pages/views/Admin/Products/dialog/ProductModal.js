@@ -57,6 +57,7 @@ const ProductModal = props => {
   const addInitialValues = {
     name: '',
     image: '',
+    quanity: '',
     cateId: '',
     contents: '',
     price: '',
@@ -69,6 +70,7 @@ const ProductModal = props => {
     id: food.id,
     name: food.name,
     image: food.image,
+    quanity: food.quanity,
     cateId: food.cateId,
     contents: food.contents,
     price: food.price,
@@ -98,7 +100,7 @@ const ProductModal = props => {
               }}
             >
               {formikProps => {
-                const { values, errors, touched, setFieldValue } = formikProps;
+                const { values } = formikProps;
                 // console.log(values);
                 return (
                   <Form>
@@ -128,6 +130,15 @@ const ProductModal = props => {
                           label="Category"
                           component={SelectField}
                           options={tmp}
+                        />
+                      </Col>
+
+                      <Col xs="12" md="12">
+                        <Field
+                          name="quanity"
+                          label="Quanity"
+                          type="number"
+                          component={InputField}
                         />
                       </Col>
 
@@ -175,7 +186,7 @@ const ProductModal = props => {
 
                     <Button color="danger" type="submit" size="lg" block>
                       Submit <BsPaperclip />
-                </Button>
+                    </Button>
                   </Form>
                 )
               }}
